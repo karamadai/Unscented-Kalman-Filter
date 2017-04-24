@@ -3,7 +3,7 @@
 Unscented Kalman Filter
 ----------
 
-The goal of this project is to develop an Unscented Kalman Filter (UKF) to estimate the state of an objected (bicycle) detected using a Radar and Lidar sensor. The UKF filter uses a non linear process model called the "Constant Turn Rate and Velocity" (CTRV) to describe the motion of the object. 
+The goal of this project is to develop an Unscented Kalman Filter (UKF) to estimate the state of an object (bicycle) detected using a Radar and Lidar sensor. The UKF filter uses a non linear process model called the "Constant Turn Rate and Velocity" (CTRV) to describe the motion of the object. 
 
 ####Code Structure
 
