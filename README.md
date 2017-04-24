@@ -5,7 +5,7 @@ Unscented Kalman Filter
 
 The goal of this project is to develop an Unscented Kalman Filter (UKF) to estimate the state of an object (bicycle) detected using a Radar and Lidar sensor. The UKF filter uses a non linear process model called the "Constant Turn Rate and Velocity" (CTRV) to describe the motion of the object. 
 
-####Code Structure
+#### Code Structure
 
 The code reads the sensor data from the text file obj_pose-laser-radar-synthetic-input.txt  
 The input file provides the Radar and the Lidar data in the following format:
@@ -19,7 +19,7 @@ The predictions (estimations) and the NIS values corresponding to the sensor inp
 
 The program can be run in 3 modes by setting the values of use_radar_ and user_laser_ variables (in ufk.cpp (line 16, 18) to true or false.
 
-####Initialization of Covarience matrix P_ and State vector x_
+#### Initialization of Covarience matrix P_ and State vector x_
 The Covariance matrix P_ and the state vector is initialized as follows:
 
 P_:  All the diagonal elements of 5x5 matrix is set to 0.85 and the rest of the elements is set to 0 (ukf.cpp, line 28)
